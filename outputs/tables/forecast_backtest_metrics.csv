@@ -1,0 +1,42 @@
+model,family,description,params,mae,rmse,bias,folds,observations
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",0.15240835925601662,0.17822598840870071,-0.06694504303115782,4,24
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",0.15887237575225344,0.1940731303059201,-0.0400056135487615,4,24
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",0.18875848552317934,0.23009817950692818,-0.07422540992498439,4,24
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},0.19244488035243848,0.2295176674936977,-0.14614073791493967,4,24
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",0.1963805262335533,0.2631559134878825,0.014142474594362317,4,24
+drift_full,drift,Drift historico (full),{'window': None},0.1963805262335533,0.2631559134878825,0.014142474594362317,4,24
+trend_full,linear_trend,Tendencia linear (full),{'window': None},0.19689844326325143,0.2516153498215188,0.18074132611626473,4,24
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},0.19707423655018755,0.23624638555071026,-0.1573092506821158,4,24
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},0.20655778286332602,0.2610628388151361,-0.14433647172130037,4,24
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",0.22037850969108963,0.2557583885088138,-0.11573103365347341,4,24
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",0.232310536616664,0.2607267210773317,-0.19081278078477446,4,24
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},0.23834121763118743,0.27396091478001217,-0.211406566359177,4,24
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",0.24251545796237248,0.28265618437390744,-0.17562804719048516,4,24
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",0.24266734574695661,0.285812761099761,-0.17076692604698843,4,24
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",0.2497710685785227,0.28695968440051983,-0.1953307227172766,4,24
+drift_24m,drift,Drift historico (24m),{'window': 24},0.24999780595313817,0.28726690799269694,-0.18621595846287708,4,24
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",0.25449605463850083,0.29162940200730225,-0.19914549493676015,4,24
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",0.26198846861803643,0.2865514023238464,-0.20379346108266616,4,24
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},0.2648849709722656,0.3037975064164093,-0.2346015983979909,4,24
+benchmark_last,benchmark,Ultima taxa observada constante,{},0.28416666666666646,0.3296841923214799,-0.22333333333333308,4,24
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},0.29308759205412865,0.32577272505859517,-0.27115040572920307,4,24
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},0.2979878355092198,0.3384671458547444,-0.2559823275219401,4,24
+drift_18m,drift,Drift historico (18m),{'window': 18},0.30134440796048484,0.3564955246452452,-0.25880699253602374,4,24
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},0.3083719973874353,0.342735894532109,-0.27872552651484644,4,24
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",0.31834189498240895,0.3521124267341977,-0.29482844286607274,4,24
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",0.3231438375417597,0.35619943974937385,-0.3035157604359251,4,24
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",0.3249958993039553,0.36217420140902434,-0.2807349125734737,4,24
+drift_12m,drift,Drift historico (12m),{'window': 12},0.3433354750813547,0.41070919266517975,-0.2861936073257584,4,24
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",0.34745903506845427,0.38821725978601024,-0.3132178280014315,4,24
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},0.35116637563823644,0.3871008075858373,-0.34152050586573196,4,24
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},0.35116637563823644,0.3871008075858373,-0.34152050586573196,4,24
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},0.36392527222600246,0.3963445282914417,-0.3384531891057159,4,24
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",0.3876689530932749,0.4268666709547657,-0.3714898817103478,4,24
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},0.39484697239152317,0.42382944587914395,-0.3780824993538261,4,24
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",0.39538013615441897,0.45923572855291417,-0.33828109491189834,4,24
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",0.42986198172772916,0.47175994101925656,-0.4142916981750779,4,24
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",0.4474700853432658,0.4915760052341444,-0.43258223314838634,4,24
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",0.44958374251440353,0.5269583520095147,-0.386492746597155,4,24
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",0.48539023201266707,0.5720936907775988,-0.4209352942233153,4,24
+drift_6m,drift,Drift historico (6m),{'window': 6},0.5145354649222164,0.6197144307121105,-0.3835806224360798,4,24
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},0.6679186368247899,0.7892760523379106,-0.5890418610486486,4,24

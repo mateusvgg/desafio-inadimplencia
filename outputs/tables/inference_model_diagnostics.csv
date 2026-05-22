@@ -1,0 +1,3 @@
+model,rows,events,event_rate,aic,auc,months,excluded_left_censored_contracts
+contract_logit_ever_delinquent,10000,5260,0.526,13627.551105231601,0.5963166803035408,,
+hazard_logit_entry_confianca_consumidor_lag2,144741,4900,0.03385357293372299,42509.91210912559,0.576692119285912,34.0,360.0

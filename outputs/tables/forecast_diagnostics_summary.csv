@@ -1,0 +1,15 @@
+metric,value,interpretation
+first_month,2022-02-01,inicio da serie
+last_month,2024-12-01,fim da serie observada
+months,35,amostra mensal curta; evitar modelos parametrizados demais
+mean_pct,4.958024783074239,nivel medio historico
+last_pct,5.0,ultima taxa observada
+last_3m_mean_pct,5.1433333333333335,baseline primario Jan-Jun/2025
+last_6m_mean_pct,5.183333333333333,referencia recente suavizada
+last_12m_mean_pct,5.0247709426508465,referencia anual suavizada
+monthly_change_mean_pp,0.05488520194402547,mudanca media mensal em p.p.
+monthly_change_sd_pp,0.4420419509609968,volatilidade mes a mes em p.p.
+linear_trend_slope_pp_per_month,0.019976813611199774,tendencia linear simples
+linear_trend_p_value,0.009591696653810898,evidencia estatistica de tendencia linear
+calendar_month_anova_p_value,0.34542376946546105,triagem simples de sazonalidade por mes calendario
+adf_style_level_lag_t_stat,-5.382317135240994,more negative values indicate stronger mean reversion; p-value unavailable because statsmodels.tsa fails in this environment

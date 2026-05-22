@@ -1,0 +1,7 @@
+dt_referencia,selected_model,model_family,forecast_pct,lower_95_pct,upper_95_pct,interval_method
+2025-01-01,dynreg_macro_ylag1,dynamic_regression_grid,5.072401793616681,4.741695275704035,5.403108311529327,rolling-origin validation residual normal approximation
+2025-02-01,dynreg_macro_ylag1,dynamic_regression_grid,5.094333114434335,4.763626596521688,5.425039632346981,rolling-origin validation residual normal approximation
+2025-03-01,dynreg_macro_ylag1,dynamic_regression_grid,5.100976359149421,4.770269841236774,5.431682877062067,rolling-origin validation residual normal approximation
+2025-04-01,dynreg_macro_ylag1,dynamic_regression_grid,5.102988672986397,4.772282155073751,5.433695190899043,rolling-origin validation residual normal approximation
+2025-05-01,dynreg_macro_ylag1,dynamic_regression_grid,5.103598225569835,4.772891707657188,5.434304743482481,rolling-origin validation residual normal approximation
+2025-06-01,dynreg_macro_ylag1,dynamic_regression_grid,5.1037828659301745,4.773076348017528,5.434489383842821,rolling-origin validation residual normal approximation

@@ -1,0 +1,11 @@
+decile,observed_rate,predicted_rate,rows,model
+1,0.395,0.3737144109393006,1000,contract_logit_ever_delinquent
+2,0.411,0.4290108202207309,1000,contract_logit_ever_delinquent
+3,0.468,0.464209527753641,1000,contract_logit_ever_delinquent
+4,0.492,0.4948637008517882,1000,contract_logit_ever_delinquent
+5,0.522,0.5218682733210759,1000,contract_logit_ever_delinquent
+6,0.531,0.5461667560200619,1000,contract_logit_ever_delinquent
+7,0.577,0.5687104470877024,1000,contract_logit_ever_delinquent
+8,0.579,0.591686822769766,1000,contract_logit_ever_delinquent
+9,0.61,0.6157916431647023,1000,contract_logit_ever_delinquent
+10,0.675,0.653977597871209,1000,contract_logit_ever_delinquent

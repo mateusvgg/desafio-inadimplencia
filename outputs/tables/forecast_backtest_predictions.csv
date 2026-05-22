@@ -1,0 +1,985 @@
+model,family,description,params,dt_referencia,actual_pct,forecast_pct,error_pct,fold,validation_start
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-04-01,4.66,4.775750437270054,-0.11575043727005419,1,2024-04-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-05-01,5.0,4.775750437270054,0.22424956272994567,1,2024-04-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-06-01,5.21,4.775750437270054,0.43424956272994564,1,2024-04-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-07-01,5.17,4.775750437270054,0.3942495627299456,1,2024-04-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-08-01,5.27,4.775750437270054,0.49424956272994525,1,2024-04-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-09-01,5.2299999999999995,4.775750437270054,0.4542495627299452,1,2024-04-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-04-01,4.66,4.87,-0.20999999999999996,1,2024-04-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-05-01,5.0,4.87,0.1299999999999999,1,2024-04-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-06-01,5.21,4.87,0.33999999999999986,1,2024-04-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-07-01,5.17,4.87,0.2999999999999998,1,2024-04-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-08-01,5.27,4.87,0.39999999999999947,1,2024-04-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-09-01,5.2299999999999995,4.87,0.35999999999999943,1,2024-04-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-04-01,4.66,4.775750437270054,-0.11575043727005419,1,2024-04-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-05-01,5.0,4.775750437270054,0.22424956272994567,1,2024-04-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-06-01,5.21,4.775750437270054,0.43424956272994564,1,2024-04-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-07-01,5.17,4.775750437270054,0.3942495627299456,1,2024-04-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-08-01,5.27,4.775750437270054,0.49424956272994525,1,2024-04-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-09-01,5.2299999999999995,4.775750437270054,0.4542495627299452,1,2024-04-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-04-01,4.66,5.011700235445648,-0.351700235445648,1,2024-04-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-05-01,5.0,5.011700235445648,-0.011700235445648133,1,2024-04-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-06-01,5.21,5.011700235445648,0.19829976455435183,1,2024-04-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-07-01,5.17,5.011700235445648,0.1582997645543518,1,2024-04-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-08-01,5.27,5.011700235445648,0.25829976455435144,1,2024-04-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-09-01,5.2299999999999995,5.011700235445648,0.2182997645543514,1,2024-04-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-04-01,4.66,5.043083499811991,-0.38308349981199097,1,2024-04-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-05-01,5.0,5.043083499811991,-0.04308349981199111,1,2024-04-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-06-01,5.21,5.043083499811991,0.16691650018800885,1,2024-04-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-07-01,5.17,5.043083499811991,0.12691650018800882,1,2024-04-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-08-01,5.27,5.043083499811991,0.22691650018800846,1,2024-04-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-09-01,5.2299999999999995,5.043083499811991,0.18691650018800843,1,2024-04-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-04-01,4.66,5.055400036050751,-0.39540003605075125,1,2024-04-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-05-01,5.0,5.055400036050751,-0.05540003605075139,1,2024-04-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-06-01,5.21,5.055400036050751,0.15459996394924858,1,2024-04-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-07-01,5.17,5.055400036050751,0.11459996394924854,1,2024-04-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-08-01,5.27,5.055400036050751,0.21459996394924818,1,2024-04-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-09-01,5.2299999999999995,5.055400036050751,0.17459996394924815,1,2024-04-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-04-01,4.66,4.823002624671916,-0.16300262467191562,1,2024-04-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-05-01,5.0,4.776005249343832,0.2239947506561677,1,2024-04-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-06-01,5.21,4.729007874015748,0.480992125984252,1,2024-04-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-07-01,5.17,4.6820104986876645,0.4879895013123354,1,2024-04-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-08-01,5.27,4.63501312335958,0.6349868766404194,1,2024-04-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-09-01,5.2299999999999995,4.588015748031496,0.6419842519685037,1,2024-04-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-04-01,4.66,4.615372097823776,0.0446279021762237,1,2024-04-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-05-01,5.0,4.50213548707467,0.4978645129253296,1,2024-04-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-06-01,5.21,4.388898876325565,0.8211011236744348,1,2024-04-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-07-01,5.17,4.275662265576459,0.8943377344235408,1,2024-04-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-08-01,5.27,4.162425654827354,1.1075743451726456,1,2024-04-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-09-01,5.2299999999999995,4.049189044078248,1.1808109559217517,1,2024-04-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-04-01,4.66,4.806190450710757,-0.14619045071075654,1,2024-04-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-05-01,5.0,4.742380901421514,0.25761909857848586,1,2024-04-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-06-01,5.21,4.678571352132271,0.5314286478677293,1,2024-04-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-07-01,5.17,4.614761802843027,0.5552381971569726,1,2024-04-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-08-01,5.27,4.550952253553784,0.7190477464462157,1,2024-04-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-09-01,5.2299999999999995,4.487142704264541,0.7428572957354582,1,2024-04-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-04-01,4.66,4.861173676452365,-0.20117367645236506,1,2024-04-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-05-01,5.0,4.831292698052613,0.1687073019473866,1,2024-04-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-06-01,5.21,4.801411719652862,0.40858828034713834,1,2024-04-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-07-01,5.17,4.77153074125311,0.3984692587468901,1,2024-04-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-08-01,5.27,4.741649762853358,0.5283502371466415,1,2024-04-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-09-01,5.2299999999999995,4.711768784453607,0.5182312155463924,1,2024-04-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-04-01,4.66,4.866538579333157,-0.20653857933315667,1,2024-04-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-05-01,5.0,4.863077158666313,0.13692284133368737,1,2024-04-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-06-01,5.21,4.859615737999469,0.35038426200053063,1,2024-04-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-07-01,5.17,4.856154317332626,0.3138456826673739,1,2024-04-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-08-01,5.27,4.852692896665782,0.4173071033342177,1,2024-04-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-09-01,5.2299999999999995,4.849231475998939,0.380768524001061,1,2024-04-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-04-01,4.66,4.965664997443438,-0.3056649974434382,1,2024-04-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-05-01,5.0,4.953639616032222,0.04636038396777842,1,2024-04-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-06-01,5.21,4.941614234621005,0.26838576537899517,1,2024-04-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-07-01,5.17,4.929588853209788,0.24041114679021192,1,2024-04-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-08-01,5.27,4.917563471798571,0.35243652820142835,1,2024-04-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-09-01,5.2299999999999995,4.905538090387354,0.3244619096126451,1,2024-04-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-04-01,4.66,4.881739130434783,-0.22173913043478244,1,2024-04-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-05-01,5.0,4.893478260869565,0.10652173913043494,1,2024-04-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-06-01,5.21,4.905217391304348,0.30478260869565155,1,2024-04-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-07-01,5.17,4.916956521739131,0.25304347826086904,1,2024-04-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-08-01,5.27,4.928695652173913,0.3413043478260862,1,2024-04-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-09-01,5.2299999999999995,4.940434782608696,0.2895652173913037,1,2024-04-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-04-01,4.66,5.138147882831506,-0.47814788283150556,1,2024-04-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-05-01,5.0,5.148128405370733,-0.14812840537073324,1,2024-04-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-06-01,5.21,5.15810892790996,0.05189107209004007,1,2024-04-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-07-01,5.17,5.168089450449187,0.0019105495508124903,1,2024-04-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-08-01,5.27,5.178069972988415,0.09193002701158459,1,2024-04-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-09-01,5.2299999999999995,5.188050495527642,0.0419495044723579,1,2024-04-01
+drift_full,drift,Drift historico (full),{'window': None},2024-04-01,4.66,4.9394438746438745,-0.2794438746438743,1,2024-04-01
+drift_full,drift,Drift historico (full),{'window': None},2024-05-01,5.0,5.00888774928775,-0.008887749287749713,1,2024-04-01
+drift_full,drift,Drift historico (full),{'window': None},2024-06-01,5.21,5.078331623931624,0.1316683760683759,1,2024-04-01
+drift_full,drift,Drift historico (full),{'window': None},2024-07-01,5.17,5.147775498575498,0.022224501424501497,1,2024-04-01
+drift_full,drift,Drift historico (full),{'window': None},2024-08-01,5.27,5.217219373219374,0.052780626780625894,1,2024-04-01
+drift_full,drift,Drift historico (full),{'window': None},2024-09-01,5.2299999999999995,5.286663247863248,-0.0566632478632485,1,2024-04-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-04-01,4.66,5.325366850380023,-0.665366850380023,1,2024-04-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-05-01,5.0,5.356417194261169,-0.35641719426116936,1,2024-04-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-06-01,5.21,5.387467538142316,-0.17746753814231564,1,2024-04-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-07-01,5.17,5.418517882023461,-0.24851788202346103,1,2024-04-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-08-01,5.27,5.449568225904607,-0.17956822590460764,1,2024-04-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-09-01,5.2299999999999995,5.480618569785753,-0.25061856978575303,1,2024-04-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-04-01,4.66,4.97006336988368,-0.31006336988367966,1,2024-04-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-05-01,5.0,4.97006336988368,0.029936630116320195,1,2024-04-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-06-01,5.21,4.97006336988368,0.23993663011632016,1,2024-04-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-07-01,5.17,4.97006336988368,0.19993663011632012,1,2024-04-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-08-01,5.27,4.97006336988368,0.29993663011631977,1,2024-04-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-09-01,5.2299999999999995,4.97006336988368,0.25993663011631973,1,2024-04-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-04-01,4.66,4.876512734566416,-0.2165127345664155,1,2024-04-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-05-01,5.0,4.876512734566416,0.12348726543358435,1,2024-04-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-06-01,5.21,4.876512734566416,0.3334872654335843,1,2024-04-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-07-01,5.17,4.876512734566416,0.2934872654335843,1,2024-04-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-08-01,5.27,4.876512734566416,0.3934872654335839,1,2024-04-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-09-01,5.2299999999999995,4.876512734566416,0.3534872654335839,1,2024-04-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-04-01,4.66,4.821841888715484,-0.16184188871548422,1,2024-04-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-05-01,5.0,4.821841888715484,0.17815811128451564,1,2024-04-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-06-01,5.21,4.821841888715484,0.3881581112845156,1,2024-04-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-07-01,5.17,4.821841888715484,0.34815811128451557,1,2024-04-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-08-01,5.27,4.821841888715484,0.4481581112845152,1,2024-04-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-09-01,5.2299999999999995,4.821841888715484,0.4081581112845152,1,2024-04-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-04-01,4.66,4.822663480164722,-0.16266348016472154,1,2024-04-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-05-01,5.0,4.822663480164722,0.17733651983527832,1,2024-04-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-06-01,5.21,4.822663480164722,0.3873365198352783,1,2024-04-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-07-01,5.17,4.822663480164722,0.34733651983527825,1,2024-04-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-08-01,5.27,4.822663480164722,0.4473365198352779,1,2024-04-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-09-01,5.2299999999999995,4.822663480164722,0.40733651983527785,1,2024-04-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-04-01,4.66,4.895536925270015,-0.23553692527001502,1,2024-04-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-05-01,5.0,4.881173213454024,0.11882678654597623,1,2024-04-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-06-01,5.21,4.868964058410431,0.34103594158956874,1,2024-04-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-07-01,5.17,4.858586276623378,0.31141372337662165,1,2024-04-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-08-01,5.27,4.849765162104382,0.42023483789561755,1,2024-04-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.842267214763236,0.38773278523676336,1,2024-04-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-04-01,4.66,4.942161425396034,-0.2821614253960343,1,2024-04-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-05-01,5.0,4.926094471914351,0.07390552808564887,1,2024-04-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-06-01,5.21,4.9108308661067515,0.2991691338932485,1,2024-04-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-07-01,5.17,4.896330440589531,0.273669559410469,1,2024-04-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-08-01,5.27,4.8825550363481725,0.3874449636518271,1,2024-04-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.869468402318882,0.36053159768111787,1,2024-04-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-04-01,4.66,5.163817417260975,-0.5038174172609748,1,2024-04-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-05-01,5.0,5.190166940624985,-0.19016694062498463,1,2024-04-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-06-01,5.21,5.216516463988995,-0.006516463988995191,1,2024-04-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-07-01,5.17,5.242865987353005,-0.07286598735300487,1,2024-04-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-08-01,5.27,5.269215510717014,0.0007844892829851347,1,2024-04-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-09-01,5.2299999999999995,5.295565034081024,-0.06556503408102454,1,2024-04-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-04-01,4.66,4.854148856595126,-0.1941488565951257,1,2024-04-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-05-01,5.0,4.818318006374774,0.18168199362522586,1,2024-04-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-06-01,5.21,4.787861783687474,0.42213821631252557,1,2024-04-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-07-01,5.17,4.76197399440327,0.40802600559672975,1,2024-04-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-08-01,5.27,4.739969373511697,0.530030626488303,1,2024-04-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.721265445753859,0.5087345542461401,1,2024-04-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-04-01,4.66,4.846843402631816,-0.18684340263181554,1,2024-04-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-05-01,5.0,4.803661740294462,0.19633825970553787,1,2024-04-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-06-01,5.21,4.762639161073976,0.4473608389260244,1,2024-04-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-07-01,5.17,4.723667710814514,0.4463322891854862,1,2024-04-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-08-01,5.27,4.686644833068025,0.583355166931975,1,2024-04-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.65147309920886,0.5785269007911396,1,2024-04-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-04-01,4.66,4.838654226338554,-0.178654226338554,1,2024-04-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-05-01,5.0,4.794503819785395,0.20549618021460514,1,2024-04-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-06-01,5.21,4.750353413232236,0.4596465867677644,1,2024-04-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-07-01,5.17,4.706203006679077,0.4637969933209227,1,2024-04-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-08-01,5.27,4.662052600125918,0.6079473998740816,1,2024-04-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-09-01,5.2299999999999995,4.617902193572759,0.6120978064272409,1,2024-04-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-04-01,4.66,4.789572370391865,-0.1295723703918652,1,2024-04-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-05-01,5.0,4.772859231337417,0.22714076866258281,1,2024-04-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-06-01,5.21,4.758653063141136,0.4513469368588643,1,2024-04-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-07-01,5.17,4.746577820174297,0.4234221798257032,1,2024-04-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-08-01,5.27,4.736313863652484,0.5336861363475158,1,2024-04-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.727589500608943,0.5024104993910568,1,2024-04-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-04-01,4.66,4.817560614848228,-0.1575606148482276,1,2024-04-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-05-01,5.0,4.811048537722634,0.18895146227736603,1,2024-04-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-06-01,5.21,4.80486206445332,0.40513793554668,1,2024-04-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-07-01,5.17,4.7989849148474715,0.37101508515252846,1,2024-04-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-08-01,5.27,4.793401622721915,0.4765983772780844,1,2024-04-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.788097495202637,0.4419025047973628,1,2024-04-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-04-01,4.66,4.9205279255243815,-0.2605279255243813,1,2024-04-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-05-01,5.0,4.970390298687753,0.02960970131224716,1,2024-04-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-06-01,5.21,5.020252671851123,0.18974732814887663,1,2024-04-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-07-01,5.17,5.070115045014494,0.09988495498550609,1,2024-04-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-08-01,5.27,5.119977418177865,0.15002258182213435,1,2024-04-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-09-01,5.2299999999999995,5.169839791341236,0.060160208658763814,1,2024-04-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-04-01,4.66,4.724624834458137,-0.0646248344581366,1,2024-04-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-05-01,5.0,4.67889495961098,0.3211050403890203,1,2024-04-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-06-01,5.21,4.640024565990896,0.5699754340091037,1,2024-04-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-07-01,5.17,4.606984731413826,0.5630152685861738,1,2024-04-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-08-01,5.27,4.578900872023316,0.6910991279766838,1,2024-04-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.555029591541382,0.6749704084586172,1,2024-04-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-04-01,4.66,4.705844588255768,-0.04584458825576743,1,2024-04-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-05-01,5.0,4.640177092197425,0.35982290780257475,1,2024-04-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-06-01,5.21,4.577792970942001,0.6322070290579989,1,2024-04-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-07-01,5.17,4.518528055749347,0.6514719442506527,1,2024-04-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-08-01,5.27,4.462226386316327,0.8077736136836728,1,2024-04-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.408739800354957,0.8212601996450424,1,2024-04-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-04-01,4.66,4.696270480199025,-0.03627048019902457,1,2024-04-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-05-01,5.0,4.619135484473826,0.3808645155261736,1,2024-04-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-06-01,5.21,4.542000488748628,0.6679995112513719,1,2024-04-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-07-01,5.17,4.46486549302343,0.7051345069765702,1,2024-04-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-08-01,5.27,4.387730497298231,0.8822695027017682,1,2024-04-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-09-01,5.2299999999999995,4.310595501573033,0.9194044984269665,1,2024-04-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-04-01,4.66,4.9394438746438745,-0.2794438746438743,1,2024-04-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-05-01,5.0,5.00888774928775,-0.008887749287749713,1,2024-04-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-06-01,5.21,5.078331623931624,0.1316683760683759,1,2024-04-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-07-01,5.17,5.147775498575498,0.022224501424501497,1,2024-04-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-08-01,5.27,5.217219373219374,0.052780626780625894,1,2024-04-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-09-01,5.2299999999999995,5.286663247863248,-0.0566632478632485,1,2024-04-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-04-01,4.66,4.805033868434335,-0.14503386843433486,1,2024-04-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-05-01,5.0,4.8818017060331425,0.11819829396685755,1,2024-04-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-06-01,5.21,4.907121668716739,0.302878331283261,1,2024-04-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-07-01,5.17,4.951116645223025,0.21888335477697485,1,2024-04-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-08-01,5.27,4.9883327967175415,0.2816672032824581,1,2024-04-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-09-01,5.2299999999999995,5.028009587276451,0.20199041272354812,1,2024-04-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-04-01,4.66,4.817997828213808,-0.1579978282138077,1,2024-04-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-05-01,5.0,4.801325944586514,0.19867405541348582,1,2024-04-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-06-01,5.21,4.874609181906118,0.3353908180938818,1,2024-04-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-07-01,5.17,4.879607653542213,0.29039234645778667,1,2024-04-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-08-01,5.27,4.901599168410151,0.3684008315898488,1,2024-04-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-09-01,5.2299999999999995,4.933056678003185,0.2969433219968147,1,2024-04-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-04-01,4.66,5.04085956452727,-0.38085956452726943,1,2024-04-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,5.091793214717734,-0.09179321471773427,1,2024-04-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,5.106976659255372,0.10302334074462838,1,2024-04-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.111502880862608,0.05849711913739153,1,2024-04-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.112852158491083,0.15714784150891692,1,2024-04-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.113254381421526,0.11674561857847365,1,2024-04-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-04-01,4.66,4.850776037751118,-0.1907760377511183,1,2024-04-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,4.935368588934404,0.06463141106559611,1,2024-04-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.933748977871579,0.2762510221284211,1,2024-04-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,4.955870087372743,0.2141299126272571,1,2024-04-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,4.956340260683942,0.3136597393160576,1,2024-04-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,4.9621611287973915,0.2678388712026081,1,2024-04-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-04-01,4.66,5.057544222863711,-0.3975442228637105,1,2024-04-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,5.05200398473812,-0.0520039847381204,1,2024-04-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,5.052167648742373,0.1578323512576274,1,2024-04-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.052162813949051,0.11783718605094862,1,2024-04-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.052162956773532,0.21783704322646713,1,2024-04-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.052162952554358,0.17783704744564144,1,2024-04-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-04-01,4.66,5.0399084585963445,-0.37990845859634437,1,2024-04-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,5.051408447562153,-0.051408447562153015,1,2024-04-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,5.0572457874456,0.1527542125543997,1,2024-04-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.057651732618035,0.11234826738196535,1,2024-04-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.057852302347349,0.21214769765265018,1,2024-04-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.057866620284938,0.1721333797150617,1,2024-04-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-04-01,4.66,5.107047966185135,-0.447047966185135,1,2024-04-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,5.092922036455707,-0.09292203645570662,1,2024-04-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,5.093763814995013,0.11623618500498711,1,2024-04-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.093713652554536,0.07628634744546403,1,2024-04-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.093716641785452,0.17628335821454755,1,2024-04-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.093716463654138,0.13628353634586166,1,2024-04-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-04-01,4.66,5.13069609623015,-0.4706960962301503,1,2024-04-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,5.12713267550379,-0.12713267550379026,1,2024-04-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,5.117231942786885,0.09276805721311465,1,2024-04-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.117037121429794,0.052962878570205874,1,2024-04-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.117402176576689,0.15259782342331096,1,2024-04-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.117421600805656,0.11257839919434343,1,2024-04-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-05-01,5.0,4.69150087260035,0.30849912739965024,2,2024-05-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-06-01,5.21,4.69150087260035,0.5184991273996502,2,2024-05-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-07-01,5.17,4.69150087260035,0.47849912739965017,2,2024-05-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-08-01,5.27,4.69150087260035,0.5784991273996498,2,2024-05-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-09-01,5.2299999999999995,4.69150087260035,0.5384991273996498,2,2024-05-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-10-01,4.97,4.69150087260035,0.27849912739965,2,2024-05-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-05-01,5.0,4.66,0.33999999999999986,2,2024-05-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-06-01,5.21,4.66,0.5499999999999998,2,2024-05-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-07-01,5.17,4.66,0.5099999999999998,2,2024-05-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-08-01,5.27,4.66,0.6099999999999994,2,2024-05-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-09-01,5.2299999999999995,4.66,0.5699999999999994,2,2024-05-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-10-01,4.97,4.66,0.3099999999999996,2,2024-05-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-05-01,5.0,4.69150087260035,0.30849912739965024,2,2024-05-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-06-01,5.21,4.69150087260035,0.5184991273996502,2,2024-05-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-07-01,5.17,4.69150087260035,0.47849912739965017,2,2024-05-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-08-01,5.27,4.69150087260035,0.5784991273996498,2,2024-05-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-09-01,5.2299999999999995,4.69150087260035,0.5384991273996498,2,2024-05-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-10-01,4.97,4.69150087260035,0.27849912739965,2,2024-05-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-05-01,5.0,4.937535756005578,0.0624642439944223,2,2024-05-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-06-01,5.21,4.937535756005578,0.27246424399442226,2,2024-05-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-07-01,5.17,4.937535756005578,0.23246424399442223,2,2024-05-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-08-01,5.27,4.937535756005578,0.33246424399442187,2,2024-05-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-09-01,5.2299999999999995,4.937535756005578,0.29246424399442184,2,2024-05-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-10-01,4.97,4.937535756005578,0.03246424399442205,2,2024-05-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-05-01,5.0,4.977172998681423,0.022827001318576734,2,2024-05-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-06-01,5.21,4.977172998681423,0.2328270013185767,2,2024-05-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-07-01,5.17,4.977172998681423,0.19282700131857666,2,2024-05-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-08-01,5.27,4.977172998681423,0.2928270013185763,2,2024-05-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-09-01,5.2299999999999995,4.977172998681423,0.25282700131857627,2,2024-05-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-10-01,4.97,4.977172998681423,-0.007172998681423515,2,2024-05-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-05-01,5.0,4.979407949202279,0.020592050797721306,2,2024-05-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-06-01,5.21,4.979407949202279,0.23059205079772127,2,2024-05-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-07-01,5.17,4.979407949202279,0.19059205079772124,2,2024-05-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-08-01,5.27,4.979407949202279,0.2905920507977209,2,2024-05-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-09-01,5.2299999999999995,4.979407949202279,0.25059205079772084,2,2024-05-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-10-01,4.97,4.979407949202279,-0.009407949202278942,2,2024-05-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-05-01,5.0,4.522335968379447,0.47766403162055315,2,2024-05-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-06-01,5.21,4.3846719367588936,0.8253280632411064,2,2024-05-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-07-01,5.17,4.24700790513834,0.9229920948616597,2,2024-05-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-08-01,5.27,4.109343873517787,1.1606561264822126,2,2024-05-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-09-01,5.2299999999999995,3.9716798418972337,1.2583201581027659,2,2024-05-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-10-01,4.97,3.8340158102766804,1.1359841897233194,2,2024-05-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-05-01,5.0,4.4306581494972255,0.5693418505027745,2,2024-05-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-06-01,5.21,4.285835976209126,0.9241640237908744,2,2024-05-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-07-01,5.17,4.141013802921025,1.028986197078975,2,2024-05-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-08-01,5.27,3.996191629632925,1.2738083703670746,2,2024-05-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-09-01,5.2299999999999995,3.851369456344824,1.3786305436551753,2,2024-05-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-10-01,4.97,3.7065472830567243,1.2634527169432754,2,2024-05-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-05-01,5.0,4.643354715301024,0.35664528469897583,2,2024-05-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-06-01,5.21,4.626709430602048,0.5832905693979518,2,2024-05-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-07-01,5.17,4.610064145903072,0.5599358540969277,2,2024-05-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-08-01,5.27,4.593418861204096,0.6765811387959033,2,2024-05-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-09-01,5.2299999999999995,4.57677357650512,0.6532264234948792,2,2024-05-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-10-01,4.97,4.560128291806144,0.40987170819385543,2,2024-05-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-05-01,5.0,4.838935332402615,0.16106466759738503,2,2024-05-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-06-01,5.21,4.817324160587282,0.39267583941271766,2,2024-05-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-07-01,5.17,4.79571298877195,0.3742870112280503,2,2024-05-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-08-01,5.27,4.774101816956617,0.4958981830433826,2,2024-05-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-09-01,5.2299999999999995,4.752490645141284,0.47750935485871526,2,2024-05-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-10-01,4.97,4.730879473325952,0.23912052667404815,2,2024-05-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-05-01,5.0,4.640921998893601,0.35907800110639876,2,2024-05-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-06-01,5.21,4.621843997787202,0.5881560022127976,2,2024-05-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-07-01,5.17,4.602765996680804,0.5672340033191956,2,2024-05-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-08-01,5.27,4.583687995574405,0.6863120044255941,2,2024-05-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-09-01,5.2299999999999995,4.5646099944680065,0.665390005531993,2,2024-05-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-10-01,4.97,4.545531993361608,0.4244680066383921,2,2024-05-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-05-01,5.0,4.852605863461915,0.14739413653808509,2,2024-05-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-06-01,5.21,4.830251708598469,0.37974829140153066,2,2024-05-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-07-01,5.17,4.807897553735024,0.36210244626497623,2,2024-05-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-08-01,5.27,4.785543398871579,0.4844566011284206,2,2024-05-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-09-01,5.2299999999999995,4.763189244008133,0.46681075599186617,2,2024-05-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-10-01,4.97,4.740835089144688,0.229164910855312,2,2024-05-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-05-01,5.0,4.695255882451384,0.30474411754861563,2,2024-05-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-06-01,5.21,4.730511764902769,0.4794882350972314,2,2024-05-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-07-01,5.17,4.765767647354152,0.404232352645848,2,2024-05-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-08-01,5.27,4.801023529805536,0.4689764701944634,2,2024-05-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-09-01,5.2299999999999995,4.83627941225692,0.39372058774307916,2,2024-05-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-10-01,4.97,4.871535294708305,0.09846470529169515,2,2024-05-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-05-01,5.0,5.0403066608077225,-0.040306660807722494,2,2024-05-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-06-01,5.21,5.042259885585047,0.1677401144149533,2,2024-05-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-07-01,5.17,5.044213110362372,0.12578688963762819,2,2024-05-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-08-01,5.27,5.046166335139697,0.22383366486030276,2,2024-05-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-09-01,5.2299999999999995,5.048119559917021,0.18188044008297855,2,2024-05-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-10-01,4.97,5.050072784694346,-0.08007278469434631,2,2024-05-01
+drift_full,drift,Drift historico (full),{'window': None},2024-05-01,5.0,4.718696033311418,0.28130396668858193,2,2024-05-01
+drift_full,drift,Drift historico (full),{'window': None},2024-06-01,5.21,4.777392066622836,0.43260793337716397,2,2024-05-01
+drift_full,drift,Drift historico (full),{'window': None},2024-07-01,5.17,4.836088099934254,0.333911900065746,2,2024-05-01
+drift_full,drift,Drift historico (full),{'window': None},2024-08-01,5.27,4.894784133245672,0.3752158667543277,2,2024-05-01
+drift_full,drift,Drift historico (full),{'window': None},2024-09-01,5.2299999999999995,4.95348016655709,0.27651983344290976,2,2024-05-01
+drift_full,drift,Drift historico (full),{'window': None},2024-10-01,4.97,5.012176199868508,-0.04217619986850796,2,2024-05-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-05-01,5.0,5.257844327538203,-0.2578443275382032,2,2024-05-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-06-01,5.21,5.2836139821306185,-0.07361398213061854,2,2024-05-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-07-01,5.17,5.309383636723034,-0.1393836367230339,2,2024-05-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-08-01,5.27,5.33515329131545,-0.06515329131545045,2,2024-05-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-09-01,5.2299999999999995,5.360922945907865,-0.1309229459078658,2,2024-05-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-10-01,4.97,5.386692600500281,-0.4166926005002809,2,2024-05-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-05-01,5.0,4.908050695906944,0.09194930409305613,2,2024-05-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-06-01,5.21,4.908050695906944,0.3019493040930561,2,2024-05-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-07-01,5.17,4.908050695906944,0.26194930409305606,2,2024-05-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-08-01,5.27,4.908050695906944,0.3619493040930557,2,2024-05-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-09-01,5.2299999999999995,4.908050695906944,0.32194930409305567,2,2024-05-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-10-01,4.97,4.908050695906944,0.06194930409305588,2,2024-05-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-05-01,5.0,4.789907640739849,0.2100923592601509,2,2024-05-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-06-01,5.21,4.789907640739849,0.42009235926015087,2,2024-05-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-07-01,5.17,4.789907640739849,0.38009235926015084,2,2024-05-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-08-01,5.27,4.789907640739849,0.4800923592601505,2,2024-05-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-09-01,5.2299999999999995,4.789907640739849,0.44009235926015045,2,2024-05-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-10-01,4.97,4.789907640739849,0.18009235926015066,2,2024-05-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-05-01,5.0,4.724736755486194,0.27526324451380635,2,2024-05-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-06-01,5.21,4.724736755486194,0.4852632445138063,2,2024-05-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-07-01,5.17,4.724736755486194,0.4452632445138063,2,2024-05-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-08-01,5.27,4.724736755486194,0.5452632445138059,2,2024-05-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-09-01,5.2299999999999995,4.724736755486194,0.5052632445138059,2,2024-05-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-10-01,4.97,4.724736755486194,0.2452632445138061,2,2024-05-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-05-01,5.0,4.692532696032944,0.3074673039670559,2,2024-05-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-06-01,5.21,4.692532696032944,0.5174673039670559,2,2024-05-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-07-01,5.17,4.692532696032944,0.47746730396705583,2,2024-05-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-08-01,5.27,4.692532696032944,0.5774673039670555,2,2024-05-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-09-01,5.2299999999999995,4.692532696032944,0.5374673039670554,2,2024-05-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-10-01,4.97,4.692532696032944,0.27746730396705566,2,2024-05-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-05-01,5.0,4.804505944278634,0.19549405572136624,2,2024-05-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-06-01,5.21,4.7871915263798135,0.4228084736201865,2,2024-05-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-07-01,5.17,4.772474271165816,0.397525728834184,2,2024-05-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-08-01,5.27,4.759964604233918,0.5100353957660815,2,2024-05-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.7493313873418055,0.48066861265819405,2,2024-05-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-10-01,4.97,4.74029315298351,0.22970684701649002,2,2024-05-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-05-01,5.0,4.833404443671753,0.16659555632824663,2,2024-05-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-06-01,5.21,4.810501317271556,0.3994986827284439,2,2024-05-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-07-01,5.17,4.788743347191368,0.38125665280863164,2,2024-05-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-08-01,5.27,4.7680732756151905,0.5019267243848091,2,2024-05-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.748436707617821,0.48156329238217843,2,2024-05-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-10-01,4.97,4.72978196802032,0.24021803197967984,2,2024-05-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-05-01,5.0,5.023907192928863,-0.023907192928862564,2,2024-05-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-06-01,5.21,5.035142193775044,0.1748578062249564,2,2024-05-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-07-01,5.17,5.046377194621224,0.12362280537877623,2,2024-05-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-08-01,5.27,5.057612195467405,0.21238780453259487,2,2024-05-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-09-01,5.2299999999999995,5.068847196313585,0.16115280368641471,2,2024-05-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-10-01,4.97,5.080082197159766,-0.11008219715976608,2,2024-05-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-05-01,5.0,4.745220961866709,0.2547790381332913,2,2024-05-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-06-01,5.21,4.702140209779311,0.5078597902206887,2,2024-05-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-07-01,5.17,4.665521570505024,0.5044784294949762,2,2024-05-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-08-01,5.27,4.634395727121879,0.6356042728781208,2,2024-05-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.607938760246206,0.6220612397537932,2,2024-05-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-10-01,4.97,4.585450338401884,0.38454966159811566,2,2024-05-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-05-01,5.0,4.731633608579897,0.2683663914201029,2,2024-05-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-06-01,5.21,4.675434673980641,0.5345653260193588,2,2024-05-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-07-01,5.17,4.622045686111348,0.5479543138886518,2,2024-05-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-08-01,5.27,4.57132614763552,0.6986738523644798,2,2024-05-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.523142586083484,0.7068574139165156,2,2024-05-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-10-01,4.97,4.477368202609049,0.49263179739095087,2,2024-05-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-05-01,5.0,4.724828671513358,0.2751713284866417,2,2024-05-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-06-01,5.21,4.66459938458973,0.5454006154102702,2,2024-05-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-07-01,5.17,4.6043700976661,0.5656299023338995,2,2024-05-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-08-01,5.27,4.544140810742471,0.7258591892575286,2,2024-05-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-09-01,5.2299999999999995,4.483911523818842,0.7460884761811579,2,2024-05-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-10-01,4.97,4.423682236895213,0.5463177631047866,2,2024-05-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-05-01,5.0,4.688507618212313,0.3114923817876871,2,2024-05-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-06-01,5.21,4.668684487759545,0.5413155122404554,2,2024-05-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-07-01,5.17,4.651834826874692,0.5181651731253076,2,2024-05-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-08-01,5.27,4.637512615122567,0.6324873848774324,2,2024-05-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.62533873513326,0.6046612648667393,2,2024-05-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-10-01,4.97,4.61499093714235,0.35500906285764966,2,2024-05-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-05-01,5.0,4.707531213767348,0.2924687862326518,2,2024-05-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-06-01,5.21,4.692812833204002,0.5171871667959982,2,2024-05-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-07-01,5.17,4.678830371668823,0.4911696283311766,2,2024-05-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-08-01,5.27,4.665547033210404,0.6044529667895953,2,2024-05-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.652927861674906,0.5770721383250939,2,2024-05-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-10-01,4.97,4.640939648716182,0.32906035128381816,2,2024-05-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-05-01,5.0,4.79844186784166,0.20155813215833973,2,2024-05-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-06-01,5.21,4.832672565473568,0.3773274345264319,2,2024-05-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-07-01,5.17,4.866903263105476,0.3030967368945241,2,2024-05-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-08-01,5.27,4.9011339607373845,0.3688660392626151,2,2024-05-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-09-01,5.2299999999999995,4.935364658369292,0.29463534163070726,2,2024-05-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-10-01,4.97,4.9695953560012,0.00040464399879969193,2,2024-05-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-05-01,5.0,4.630232459264002,0.3697675407359977,2,2024-05-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-06-01,5.21,4.582957605922639,0.6270423940773613,2,2024-05-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-07-01,5.17,4.54277398058248,0.6272260194175203,2,2024-05-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-08-01,5.27,4.508617899043344,0.7613821009566557,2,2024-05-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.479585229735079,0.7504147702649204,2,2024-05-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-10-01,4.97,4.454907460823053,0.5150925391769468,2,2024-05-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-05-01,5.0,4.604830914652228,0.3951690853477716,2,2024-05-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-06-01,5.21,4.534999340034655,0.6750006599653453,2,2024-05-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-07-01,5.17,4.468659344147959,0.7013406558520412,2,2024-05-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-08-01,5.27,4.405636348055598,0.8643636519444016,2,2024-05-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.345764501767856,0.8842354982321439,2,2024-05-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-10-01,4.97,4.2888862477945,0.6811137522054995,2,2024-05-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-05-01,5.0,4.590844509918588,0.40915549008141205,2,2024-05-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-06-01,5.21,4.507180827757565,0.7028191722424353,2,2024-05-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-07-01,5.17,4.423517145596542,0.7464828544034576,2,2024-05-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-08-01,5.27,4.33985346343552,0.9301465365644797,2,2024-05-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-09-01,5.2299999999999995,4.256189781274497,0.9738102187255029,2,2024-05-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-10-01,4.97,4.172526099113474,0.7974739008865255,2,2024-05-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-05-01,5.0,4.718696033311418,0.28130396668858193,2,2024-05-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-06-01,5.21,4.777392066622836,0.43260793337716397,2,2024-05-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-07-01,5.17,4.836088099934254,0.333911900065746,2,2024-05-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-08-01,5.27,4.894784133245672,0.3752158667543277,2,2024-05-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-09-01,5.2299999999999995,4.95348016655709,0.27651983344290976,2,2024-05-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-10-01,4.97,5.012176199868508,-0.04217619986850796,2,2024-05-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-05-01,5.0,4.785434791330499,0.21456520866950068,2,2024-05-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-06-01,5.21,4.7869226418518425,0.4230773581481575,2,2024-05-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-07-01,5.17,4.83421028575482,0.33578971424517956,2,2024-05-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-08-01,5.27,4.864574389148395,0.405425610851605,2,2024-05-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-09-01,5.2299999999999995,4.901191931743908,0.3288080682560919,2,2024-05-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-10-01,4.97,4.935498757983667,0.03450124201633287,2,2024-05-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-05-01,5.0,4.742138530260937,0.2578614697390629,2,2024-05-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-06-01,5.21,4.789581294479187,0.42041870552081306,2,2024-05-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-07-01,5.17,4.775253644510029,0.3947463554899713,2,2024-05-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-08-01,5.27,4.810910067206907,0.4590899327930922,2,2024-05-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-09-01,5.2299999999999995,4.832023531336607,0.3979764686633924,2,2024-05-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-10-01,4.97,4.8481388748276935,0.1218611251723063,2,2024-05-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,4.89737720751544,0.10262279248455997,2,2024-05-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.975937003075053,0.2340629969249468,2,2024-05-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.001936304115643,0.16806369588435732,2,2024-05-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.010540751845986,0.25945924815401344,2,2024-05-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.013388386889275,0.2166116131107243,2,2024-05-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,5.014330809412359,-0.044330809412358896,2,2024-05-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,4.828788172977218,0.17121182702278226,2,2024-05-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.77501701455054,0.43498298544945957,2,2024-05-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,4.821269431267911,0.34873056873208874,2,2024-05-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,4.807613538384574,0.4623864616154254,2,2024-05-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,4.8203278864393635,0.40967211356063604,2,2024-05-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,4.816895649579684,0.15310435042031578,2,2024-05-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,4.827136020956331,0.1728639790436688,2,2024-05-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.820501462281758,0.38949853771824205,2,2024-05-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,4.820764824832539,0.34923517516746116,2,2024-05-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,4.820754370507458,0.449245629492542,2,2024-05-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,4.820754785497791,0.4092452145022083,2,2024-05-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,4.820754769024516,0.1492452309754837,2,2024-05-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,4.83794964013647,0.1620503598635299,2,2024-05-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.827283805623535,0.38271619437646454,2,2024-05-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,4.834082928880955,0.3359170711190451,2,2024-05-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,4.8335769868135525,0.43642301318644705,2,2024-05-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,4.833838341147732,0.3961616588522672,2,2024-05-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,4.8338153187129995,0.13618468128700023,2,2024-05-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,4.8580510644192225,0.14194893558077748,2,2024-05-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.847786586211714,0.362213413788286,2,2024-05-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,4.848318567764964,0.3216814322350361,2,2024-05-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,4.848290996526828,0.42170900347317186,2,2024-05-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,4.848292425473316,0.3817075745266836,2,2024-05-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,4.848292351414688,0.12170764858531147,2,2024-05-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-05-01,5.0,4.855711793353702,0.14428820664629782,2,2024-05-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.855350593163651,0.3546494068363488,2,2024-05-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,4.859038403121086,0.3109615968789141,2,2024-05-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,4.859099475884639,0.4109005241153607,2,2024-05-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,4.859170215149707,0.37082978485029283,2,2024-05-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,4.859172670305255,0.11082732969474485,2,2024-05-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-06-01,5.21,4.843333333333334,0.36666666666666625,3,2024-06-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-07-01,5.17,4.843333333333334,0.3266666666666662,3,2024-06-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-08-01,5.27,4.843333333333334,0.42666666666666586,3,2024-06-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-09-01,5.2299999999999995,4.843333333333334,0.3866666666666658,3,2024-06-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-10-01,4.97,4.843333333333334,0.12666666666666604,3,2024-06-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-11-01,5.46,4.843333333333334,0.6166666666666663,3,2024-06-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-06-01,5.21,5.0,0.20999999999999996,3,2024-06-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-07-01,5.17,5.0,0.16999999999999993,3,2024-06-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-08-01,5.27,5.0,0.2699999999999996,3,2024-06-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-09-01,5.2299999999999995,5.0,0.22999999999999954,3,2024-06-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-10-01,4.97,5.0,-0.03000000000000025,3,2024-06-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-11-01,5.46,5.0,0.45999999999999996,3,2024-06-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-06-01,5.21,4.843333333333334,0.36666666666666625,3,2024-06-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-07-01,5.17,4.843333333333334,0.3266666666666662,3,2024-06-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-08-01,5.27,4.843333333333334,0.42666666666666586,3,2024-06-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-09-01,5.2299999999999995,4.843333333333334,0.3866666666666658,3,2024-06-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-10-01,4.97,4.843333333333334,0.12666666666666604,3,2024-06-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-11-01,5.46,4.843333333333334,0.6166666666666663,3,2024-06-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-06-01,5.21,4.879482396321783,0.33051760367821714,3,2024-06-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-07-01,5.17,4.879482396321783,0.2905176036782171,3,2024-06-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-08-01,5.27,4.879482396321783,0.39051760367821675,3,2024-06-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-09-01,5.2299999999999995,4.879482396321783,0.3505176036782167,3,2024-06-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-10-01,4.97,4.879482396321783,0.09051760367821693,3,2024-06-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-11-01,5.46,4.879482396321783,0.5805176036782171,3,2024-06-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-06-01,5.21,4.990484119592134,0.21951588040786607,3,2024-06-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-07-01,5.17,4.990484119592134,0.17951588040786604,3,2024-06-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-08-01,5.27,4.990484119592134,0.2795158804078657,3,2024-06-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-09-01,5.2299999999999995,4.990484119592134,0.23951588040786564,3,2024-06-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-10-01,4.97,4.990484119592134,-0.020484119592134142,3,2024-06-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-11-01,5.46,4.990484119592134,0.46951588040786607,3,2024-06-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-06-01,5.21,4.992483104894884,0.21751689510511607,3,2024-06-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-07-01,5.17,4.992483104894884,0.17751689510511603,3,2024-06-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-08-01,5.27,4.992483104894884,0.2775168951051157,3,2024-06-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-09-01,5.2299999999999995,4.992483104894884,0.23751689510511564,3,2024-06-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-10-01,4.97,4.992483104894884,-0.022483104894884143,3,2024-06-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-11-01,5.46,4.992483104894884,0.46751689510511607,3,2024-06-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-06-01,5.21,4.9420713867758925,0.26792861322410744,3,2024-06-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-07-01,5.17,4.884142773551785,0.2858572264482149,3,2024-06-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-08-01,5.27,4.826214160327677,0.4437858396723229,3,2024-06-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-09-01,5.2299999999999995,4.768285547103569,0.4617144528964303,3,2024-06-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-10-01,4.97,4.710356933879462,0.259643066120538,3,2024-06-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-11-01,5.46,4.652428320655354,0.8075716793446457,3,2024-06-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-06-01,5.21,4.691385993278675,0.5186140067213252,3,2024-06-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-07-01,5.17,4.637644163837788,0.5323558361622123,3,2024-06-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-08-01,5.27,4.5839023343969,0.6860976656030999,3,2024-06-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-09-01,5.2299999999999995,4.530160504956012,0.6998394950439879,3,2024-06-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-10-01,4.97,4.476418675515124,0.4935813244848761,3,2024-06-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-11-01,5.46,4.422676846074236,1.0373231539257644,3,2024-06-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-06-01,5.21,5.012541294506301,0.19745870549369915,3,2024-06-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-07-01,5.17,5.0250825890126025,0.1449174109873974,3,2024-06-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-08-01,5.27,5.037623883518903,0.23237611648109624,3,2024-06-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-09-01,5.2299999999999995,5.050165178025205,0.1798348219747945,3,2024-06-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-10-01,4.97,5.062706472531506,-0.0927064725315061,3,2024-06-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-11-01,5.46,5.0752477670378076,0.3847522329621924,3,2024-06-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-06-01,5.21,4.816885145620196,0.393114854379804,3,2024-06-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-07-01,5.17,4.789870074962551,0.3801299250374486,3,2024-06-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-08-01,5.27,4.762855004304907,0.5071449956950929,3,2024-06-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-09-01,5.2299999999999995,4.735839933647263,0.49416006635273657,3,2024-06-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-10-01,4.97,4.708824862989618,0.2611751370103814,3,2024-06-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-11-01,5.46,4.681809792331974,0.7781902076680263,3,2024-06-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-06-01,5.21,5.003011443485244,0.206988556514756,3,2024-06-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-07-01,5.17,5.006022886970488,0.163977113029512,3,2024-06-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-08-01,5.27,5.009034330455732,0.2609656695442677,3,2024-06-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-09-01,5.2299999999999995,5.012045773940976,0.2179542260590237,3,2024-06-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-10-01,4.97,5.01505721742622,-0.04505721742622004,3,2024-06-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-11-01,5.46,5.018068660911464,0.4419313390885362,3,2024-06-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-06-01,5.21,4.8276262706794615,0.3823737293205385,3,2024-06-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-07-01,5.17,4.80255102428809,0.36744897571190993,3,2024-06-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-08-01,5.27,4.7774757778967185,0.49252422210328106,3,2024-06-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-09-01,5.2299999999999995,4.752400531505348,0.4775994684946516,3,2024-06-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-10-01,4.97,4.7273252851139755,0.2426747148860242,3,2024-06-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-11-01,5.46,4.702250038722605,0.757749961277395,3,2024-06-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-06-01,5.21,4.99054820415879,0.2194517958412101,3,2024-06-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-07-01,5.17,4.981096408317581,0.18890359168241933,3,2024-06-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-08-01,5.27,4.9716446124763705,0.2983553875236291,3,2024-06-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-09-01,5.2299999999999995,4.96219281663516,0.2678071833648392,3,2024-06-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-10-01,4.97,4.952741020793951,0.017258979206048686,3,2024-06-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-11-01,5.46,4.943289224952741,0.516710775047259,3,2024-06-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-06-01,5.21,4.927744360139275,0.28225563986072455,3,2024-06-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-07-01,5.17,4.9168563165418515,0.2531436834581484,3,2024-06-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-08-01,5.27,4.905968272944428,0.36403172705557196,3,2024-06-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-09-01,5.2299999999999995,4.895080229347004,0.33491977065299583,3,2024-06-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-10-01,4.97,4.88419218574958,0.08580781425041994,3,2024-06-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-11-01,5.46,4.873304142152156,0.5866958578478441,3,2024-06-01
+drift_full,drift,Drift historico (full),{'window': None},2024-06-01,5.21,5.069114698744328,0.1408853012556719,3,2024-06-01
+drift_full,drift,Drift historico (full),{'window': None},2024-07-01,5.17,5.138229397488657,0.031770602511342894,3,2024-06-01
+drift_full,drift,Drift historico (full),{'window': None},2024-08-01,5.27,5.207344096232985,0.06265590376701446,3,2024-06-01
+drift_full,drift,Drift historico (full),{'window': None},2024-09-01,5.2299999999999995,5.276458794977313,-0.046458794977313644,3,2024-06-01
+drift_full,drift,Drift historico (full),{'window': None},2024-10-01,4.97,5.345573493721642,-0.3755734937216424,3,2024-06-01
+drift_full,drift,Drift historico (full),{'window': None},2024-11-01,5.46,5.41468819246597,0.04531180753402975,3,2024-06-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-06-01,5.21,5.2467790781965915,-0.03677907819659154,3,2024-06-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-07-01,5.17,5.270643479137247,-0.10064347913724703,3,2024-06-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-08-01,5.27,5.294507880077902,-0.024507880077902833,3,2024-06-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-09-01,5.2299999999999995,5.318372281018558,-0.08837228101855832,3,2024-06-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-10-01,4.97,5.342236681959213,-0.37223668195921356,3,2024-06-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-11-01,5.46,5.366101082899869,0.09389891710013121,3,2024-06-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-06-01,5.21,4.926440556725556,0.28355944327444416,3,2024-06-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-07-01,5.17,4.926440556725556,0.24355944327444412,3,2024-06-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-08-01,5.27,4.926440556725556,0.34355944327444377,3,2024-06-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-09-01,5.2299999999999995,4.926440556725556,0.30355944327444373,3,2024-06-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-10-01,4.97,4.926440556725556,0.04355944327444394,3,2024-06-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-11-01,5.46,4.926440556725556,0.5335594432744442,3,2024-06-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-06-01,5.21,4.87394458444391,0.33605541555609,3,2024-06-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-07-01,5.17,4.87394458444391,0.29605541555608994,3,2024-06-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-08-01,5.27,4.87394458444391,0.3960554155560896,3,2024-06-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-09-01,5.2299999999999995,4.87394458444391,0.35605541555608955,3,2024-06-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-10-01,4.97,4.87394458444391,0.09605541555608976,3,2024-06-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-11-01,5.46,4.87394458444391,0.58605541555609,3,2024-06-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-06-01,5.21,4.889894702194478,0.3201052978055223,3,2024-06-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-07-01,5.17,4.889894702194478,0.2801052978055223,3,2024-06-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-08-01,5.27,4.889894702194478,0.38010529780552194,3,2024-06-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-09-01,5.2299999999999995,4.889894702194478,0.3401052978055219,3,2024-06-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-10-01,4.97,4.889894702194478,0.08010529780552211,3,2024-06-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-11-01,5.46,4.889894702194478,0.5701052978055223,3,2024-06-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-06-01,5.21,4.938506539206589,0.27149346079341097,3,2024-06-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-07-01,5.17,4.938506539206589,0.23149346079341093,3,2024-06-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-08-01,5.27,4.938506539206589,0.3314934607934106,3,2024-06-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-09-01,5.2299999999999995,4.938506539206589,0.29149346079341054,3,2024-06-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-10-01,4.97,4.938506539206589,0.031493460793410755,3,2024-06-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-11-01,5.46,4.938506539206589,0.521493460793411,3,2024-06-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-06-01,5.21,4.850824841517118,0.3591751584828824,3,2024-06-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-07-01,5.17,4.840344919960881,0.32965508003911914,3,2024-06-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-08-01,5.27,4.83143698663808,0.43856301336191983,3,2024-06-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.823865243313699,0.40613475668630095,3,2024-06-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-10-01,4.97,4.817429261487975,0.15257073851202474,3,2024-06-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-11-01,5.46,4.81195867693611,0.6480413230638904,3,2024-06-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-06-01,5.21,4.865227957525384,0.3447720424746157,3,2024-06-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-07-01,5.17,4.8479805621327845,0.32201943786721543,3,2024-06-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-08-01,5.27,4.8315955365098135,0.438404463490186,3,2024-06-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.816029762167992,0.41397023783200737,3,2024-06-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-10-01,4.97,4.801242276543261,0.16875772345673834,3,2024-06-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-11-01,5.46,4.787194165199767,0.6728058348002328,3,2024-06-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-06-01,5.21,5.027252820108518,0.18274717989148215,3,2024-06-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-07-01,5.17,5.037770605166832,0.13222939483316765,3,2024-06-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-08-01,5.27,5.048288390225147,0.22171160977485282,3,2024-06-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-09-01,5.2299999999999995,5.058806175283462,0.17119382471653743,3,2024-06-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-10-01,4.97,5.069323960341777,-0.09932396034177682,3,2024-06-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-11-01,5.46,5.079841745400091,0.38015825459990893,3,2024-06-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-06-01,5.21,4.7980645176364956,0.4119354823635044,3,2024-06-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-07-01,5.17,4.7780128853168256,0.3919871146831744,3,2024-06-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-08-01,5.27,4.760968997845106,0.5090310021548934,3,2024-06-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.746481693494144,0.4835183065058555,3,2024-06-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-10-01,4.97,4.734167484795827,0.23583251520417292,3,2024-06-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-11-01,5.46,4.723700407402257,0.7362995925977431,3,2024-06-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-06-01,5.21,4.778889917873091,0.43111008212690916,3,2024-06-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-07-01,5.17,4.747298990146896,0.4227010098531041,3,2024-06-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-08-01,5.27,4.717287608807011,0.5527123911929888,3,2024-06-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.688776796534119,0.5412232034658802,3,2024-06-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-10-01,4.97,4.661691524874874,0.30830847512512616,3,2024-06-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-11-01,5.46,4.63596051679859,0.8240394832014104,3,2024-06-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-06-01,5.21,4.771916202699519,0.4380837973004805,3,2024-06-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-07-01,5.17,4.7364523353396875,0.43354766466031247,3,2024-06-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-08-01,5.27,4.700988467979856,0.5690115320201432,3,2024-06-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-09-01,5.2299999999999995,4.665524600620024,0.5644753993799752,3,2024-06-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-10-01,4.97,4.630060733260193,0.33993926673980646,3,2024-06-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-11-01,5.46,4.594596865900361,0.8654031340996386,3,2024-06-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-06-01,5.21,4.871466028303328,0.33853397169667154,3,2024-06-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-07-01,5.17,4.868119562168972,0.301880437831028,3,2024-06-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-08-01,5.27,4.865275065954768,0.40472493404523124,3,2024-06-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.862857244172695,0.36714275582730416,3,2024-06-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-10-01,4.97,4.860802095657934,0.10919790434206611,3,2024-06-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-11-01,5.46,4.8590552194203855,0.6009447805796144,3,2024-06-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-06-01,5.21,4.884964825758855,0.3250351742411448,3,2024-06-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-07-01,5.17,4.886819548998175,0.283180451001825,3,2024-06-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-08-01,5.27,4.888581536075528,0.3814184639244713,3,2024-06-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.890255423799014,0.3397445762009852,3,2024-06-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-10-01,4.97,4.891845617136326,0.07815438286367371,3,2024-06-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-11-01,5.46,4.893356300806772,0.5666436991932278,3,2024-06-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-06-01,5.21,4.965700932698073,0.2442990673019274,3,2024-06-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-07-01,5.17,5.012025118259481,0.1579748817405191,3,2024-06-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-08-01,5.27,5.058349303820889,0.21165069617911048,3,2024-06-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-09-01,5.2299999999999995,5.104673489382297,0.12532651061770217,3,2024-06-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-10-01,4.97,5.150997674943706,-0.1809976749437059,3,2024-06-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-11-01,5.46,5.197321860505114,0.26267813949488605,3,2024-06-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-06-01,5.21,4.861392564096845,0.3486074359031548,3,2024-06-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-07-01,5.17,4.869297207429402,0.30070279257059784,3,2024-06-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-08-01,5.27,4.876016154262076,0.39398384573792367,3,2024-06-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.881727259069848,0.3482727409301516,3,2024-06-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-10-01,4.97,4.886581698156455,0.08341830184354482,3,2024-06-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-11-01,5.46,4.8907079713800705,0.5692920286199294,3,2024-06-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-06-01,5.21,4.839674704837787,0.37032529516221313,3,2024-06-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-07-01,5.17,4.8375299268658365,0.33247007313416344,3,2024-06-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-08-01,5.27,4.835492387792485,0.4345076122075149,3,2024-06-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.8335567256728,0.3964432743271997,3,2024-06-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-10-01,4.97,4.8317178466590995,0.13828215334090022,3,2024-06-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-11-01,5.46,4.829970911596084,0.6300290884039157,3,2024-06-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-06-01,5.21,4.826322110021067,0.3836778899789328,3,2024-06-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-07-01,5.17,4.816306416074698,0.3536935839253017,3,2024-06-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-08-01,5.27,4.80629072212833,0.4637092778716694,3,2024-06-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-09-01,5.2299999999999995,4.796275028181961,0.43372497181803826,3,2024-06-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-10-01,4.97,4.786259334235593,0.1837406657644065,3,2024-06-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-11-01,5.46,4.776243640289225,0.6837563597107748,3,2024-06-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-06-01,5.21,5.069114698744328,0.1408853012556719,3,2024-06-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-07-01,5.17,5.138229397488657,0.031770602511342894,3,2024-06-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-08-01,5.27,5.207344096232985,0.06265590376701446,3,2024-06-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-09-01,5.2299999999999995,5.276458794977313,-0.046458794977313644,3,2024-06-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-10-01,4.97,5.345573493721642,-0.3755734937216424,3,2024-06-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-11-01,5.46,5.41468819246597,0.04531180753402975,3,2024-06-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-06-01,5.21,4.927644807881616,0.2823551921183842,3,2024-06-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-07-01,5.17,5.011780492046086,0.15821950795391349,3,2024-06-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-08-01,5.27,5.036527098959057,0.2334729010409422,3,2024-06-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-09-01,5.2299999999999995,5.083812160384926,0.14618783961507376,3,2024-06-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-10-01,4.97,5.122543764587022,-0.15254376458702268,3,2024-06-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-11-01,5.46,5.164521448968975,0.2954785510310254,3,2024-06-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-06-01,5.21,4.885770841839821,0.32422915816017905,3,2024-06-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-07-01,5.17,4.91550569656476,0.2544943034352398,3,2024-06-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-08-01,5.27,4.977957991740127,0.29204200825987225,3,2024-06-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-09-01,5.2299999999999995,4.978657878861278,0.25134212113872145,3,2024-06-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-10-01,4.97,5.010700612724077,-0.04070061272407699,3,2024-06-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-11-01,5.46,5.0394713081602385,0.4205286918397615,3,2024-06-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,5.090863910263298,0.11913608973670176,3,2024-06-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.120680028478662,0.04931997152133771,3,2024-06-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.130463900896837,0.13953609910316267,3,2024-06-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.133674384528667,0.09632561547133278,3,2024-06-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,5.134727873853722,-0.1647278738537219,3,2024-06-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,5.13507356624318,0.3249264337568203,3,2024-06-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.945873335283456,0.2641266647165441,3,2024-06-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.041023331101367,0.12897666889863313,3,2024-06-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.028982901130464,0.24101709886953593,3,2024-06-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.0557224692704015,0.17427753072959806,3,2024-06-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,5.053244210121768,-0.08324421012176852,3,2024-06-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,5.060791218367712,0.39920878163228757,3,2024-06-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.865727350565077,0.34427264943492286,3,2024-06-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,4.871583972997795,0.2984160270022045,3,2024-06-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,4.8713285224167295,0.39867147758327004,3,2024-06-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,4.871339664504189,0.3586603354958102,3,2024-06-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,4.871339178515423,0.098660821484577,3,2024-06-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,4.871339199712984,0.5886608002870162,3,2024-06-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.857967019024772,0.3520329809752276,3,2024-06-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,4.87651008974837,0.29348991025162974,3,2024-06-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,4.870020221888392,0.39997977811160723,3,2024-06-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,4.870992833857327,0.35900716614267214,3,2024-06-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,4.870692434101103,0.09930756589889711,3,2024-06-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,4.870742216906751,0.5892577830932488,3,2024-06-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.862646073469496,0.3473539265305039,3,2024-06-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,4.871809015014432,0.29819098498556773,3,2024-06-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,4.871197751107556,0.3988022488924434,3,2024-06-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,4.871238528794723,0.3587614712052769,3,2024-06-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,4.871235808497071,0.09876419150292914,3,2024-06-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,4.871235989969337,0.5887640100306628,3,2024-06-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-06-01,5.21,4.849892046419486,0.3601079535805143,3,2024-06-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,4.855971782009232,0.3140282179907681,3,2024-06-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,4.854563621370565,0.41543637862943417,3,2024-06-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,4.854645286666877,0.375354713333123,3,2024-06-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,4.854631554572644,0.11536844542735558,3,2024-06-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,4.854632541660813,0.6053674583391873,3,2024-06-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-07-01,5.17,4.956666666666667,0.21333333333333293,4,2024-07-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-08-01,5.27,4.956666666666667,0.3133333333333326,4,2024-07-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-09-01,5.2299999999999995,4.956666666666667,0.27333333333333254,4,2024-07-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-10-01,4.97,4.956666666666667,0.013333333333332753,4,2024-07-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-11-01,5.46,4.956666666666667,0.503333333333333,4,2024-07-01
+baseline_mean_3m,baseline,Media dos ultimos 3 meses,{'window': 3},2024-12-01,5.0,4.956666666666667,0.043333333333333,4,2024-07-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-07-01,5.17,5.21,-0.040000000000000036,4,2024-07-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-08-01,5.27,5.21,0.05999999999999961,4,2024-07-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-09-01,5.2299999999999995,5.21,0.019999999999999574,4,2024-07-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-10-01,4.97,5.21,-0.2400000000000002,4,2024-07-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-11-01,5.46,5.21,0.25,4,2024-07-01
+benchmark_last,benchmark,Ultima taxa observada constante,{},2024-12-01,5.0,5.21,-0.20999999999999996,4,2024-07-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-07-01,5.17,4.956666666666667,0.21333333333333293,4,2024-07-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-08-01,5.27,4.956666666666667,0.3133333333333326,4,2024-07-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-09-01,5.2299999999999995,4.956666666666667,0.27333333333333254,4,2024-07-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-10-01,4.97,4.956666666666667,0.013333333333332753,4,2024-07-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-11-01,5.46,4.956666666666667,0.503333333333333,4,2024-07-01
+ma_3m,moving_average,Media movel de 3 meses,{'window': 3},2024-12-01,5.0,4.956666666666667,0.043333333333333,4,2024-07-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-07-01,5.17,4.86620855196836,0.3037914480316397,4,2024-07-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-08-01,5.27,4.86620855196836,0.40379144803163936,4,2024-07-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-09-01,5.2299999999999995,4.86620855196836,0.3637914480316393,4,2024-07-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-10-01,4.97,4.86620855196836,0.10379144803163953,4,2024-07-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-11-01,5.46,4.86620855196836,0.5937914480316397,4,2024-07-01
+ma_6m,moving_average,Media movel de 6 meses,{'window': 6},2024-12-01,5.0,4.86620855196836,0.13379144803163978,4,2024-07-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-07-01,5.17,4.993355712519321,0.17664428748067884,4,2024-07-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-08-01,5.27,4.993355712519321,0.2766442874806785,4,2024-07-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-09-01,5.2299999999999995,4.993355712519321,0.23664428748067845,4,2024-07-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-10-01,4.97,4.993355712519321,-0.023355712519321337,4,2024-07-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-11-01,5.46,4.993355712519321,0.4666442874806789,4,2024-07-01
+ma_9m,moving_average,Media movel de 9 meses,{'window': 9},2024-12-01,5.0,4.993355712519321,0.006644287480678912,4,2024-07-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-07-01,5.17,5.02147929152566,0.14852070847434007,4,2024-07-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-08-01,5.27,5.02147929152566,0.2485207084743397,4,2024-07-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-09-01,5.2299999999999995,5.02147929152566,0.20852070847433968,4,2024-07-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-10-01,4.97,5.02147929152566,-0.05147929152566011,4,2024-07-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-11-01,5.46,5.02147929152566,0.4385207084743401,4,2024-07-01
+ma_12m,moving_average,Media movel de 12 meses,{'window': 12},2024-12-01,5.0,5.02147929152566,-0.02147929152565986,4,2024-07-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-07-01,5.17,5.269450261198177,-0.0994502611981769,4,2024-07-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-08-01,5.27,5.328900522396355,-0.058900522396355015,4,2024-07-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-09-01,5.2299999999999995,5.3883507835945315,-0.15835078359453192,4,2024-07-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-10-01,4.97,5.447801044792709,-0.47780104479270946,4,2024-07-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-11-01,5.46,5.507251305990886,-0.04725130599088612,4,2024-07-01
+drift_6m,drift,Drift historico (6m),{'window': 6},2024-12-01,5.0,5.566701567189063,-0.566701567189063,4,2024-07-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-07-01,5.17,5.130483419623489,0.03951658037651118,4,2024-07-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-08-01,5.27,5.205990524667811,0.06400947533218826,4,2024-07-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-09-01,5.2299999999999995,5.281497629712135,-0.05149762971213523,4,2024-07-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-10-01,4.97,5.357004734756457,-0.3870047347564576,4,2024-07-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-11-01,5.46,5.43251183980078,0.02748816019922007,4,2024-07-01
+trend_6m,linear_trend,Tendencia linear (6m),{'window': 6},2024-12-01,5.0,5.5080189448451025,-0.5080189448451025,4,2024-07-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-07-01,5.17,5.206073226347717,-0.03607322634771748,4,2024-07-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-08-01,5.27,5.202146452695435,0.06785354730456472,4,2024-07-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-09-01,5.2299999999999995,5.198219679043153,0.03178032095684635,4,2024-07-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-10-01,4.97,5.194292905390871,-0.22429290539087088,4,2024-07-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-11-01,5.46,5.190366131738588,0.2696338682614119,4,2024-07-01
+drift_12m,drift,Drift historico (12m),{'window': 12},2024-12-01,5.0,5.1864393580863055,-0.18643935808630552,4,2024-07-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-07-01,5.17,4.861722249708281,0.3082777502917189,4,2024-07-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-08-01,5.27,4.837144243274838,0.43285575672516163,4,2024-07-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-09-01,5.2299999999999995,4.812566236841396,0.4174337631586038,4,2024-07-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-10-01,4.97,4.787988230407953,0.18201176959204712,4,2024-07-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-11-01,5.46,4.76341022397451,0.6965897760254895,4,2024-07-01
+trend_12m,linear_trend,Tendencia linear (12m),{'window': 12},2024-12-01,5.0,4.738832217541067,0.2611677824589327,4,2024-07-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-07-01,5.17,5.188986653484923,-0.01898665348492301,4,2024-07-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-08-01,5.27,5.167973306969847,0.10202669303015277,4,2024-07-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-09-01,5.2299999999999995,5.14695996045477,0.08304003954522976,4,2024-07-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-10-01,4.97,5.125946613939694,-0.1559466139396939,4,2024-07-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-11-01,5.46,5.104933267424617,0.35506673257538335,4,2024-07-01
+drift_18m,drift,Drift historico (18m),{'window': 18},2024-12-01,5.0,5.08391992090954,-0.08391992090953959,4,2024-07-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-07-01,5.17,4.844362801395492,0.32563719860450835,4,2024-07-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-08-01,5.27,4.81952184163359,0.45047815836640925,4,2024-07-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-09-01,5.2299999999999995,4.794680881871689,0.4353191181283105,4,2024-07-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-10-01,4.97,4.769839922109787,0.20016007789021284,4,2024-07-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-11-01,5.46,4.744998962347886,0.7150010376521143,4,2024-07-01
+trend_18m,linear_trend,Tendencia linear (18m),{'window': 18},2024-12-01,5.0,4.720158002585984,0.2798419974140156,4,2024-07-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-07-01,5.17,5.21487663994985,-0.04487663994984992,4,2024-07-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-08-01,5.27,5.2197532798997,0.050246720100299846,4,2024-07-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-09-01,5.2299999999999995,5.22462991984955,0.00537008015044993,4,2024-07-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-10-01,4.97,5.2295065597994,-0.2595065597994006,4,2024-07-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-11-01,5.46,5.23438319974925,0.2256168002507497,4,2024-07-01
+drift_24m,drift,Drift historico (24m),{'window': 24},2024-12-01,5.0,5.2392598396991,-0.23925983969910014,4,2024-07-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-07-01,5.17,4.966568058491936,0.20343194150806365,4,2024-07-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-08-01,5.27,4.958810548443885,0.3111894515561149,4,2024-07-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-09-01,5.2299999999999995,4.951053038395833,0.27894696160416643,4,2024-07-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-10-01,4.97,4.9432955283477815,0.02670447165221823,4,2024-07-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-11-01,5.46,4.93553801829973,0.52446198170027,4,2024-07-01
+trend_24m,linear_trend,Tendencia linear (24m),{'window': 24},2024-12-01,5.0,4.927780508251679,0.07221949174832076,4,2024-07-01
+drift_full,drift,Drift historico (full),{'window': None},2024-07-01,5.17,5.284146316646317,-0.11414631664631703,4,2024-07-01
+drift_full,drift,Drift historico (full),{'window': None},2024-08-01,5.27,5.358292633292633,-0.08829263329263348,4,2024-07-01
+drift_full,drift,Drift historico (full),{'window': None},2024-09-01,5.2299999999999995,5.43243894993895,-0.2024389499389505,4,2024-07-01
+drift_full,drift,Drift historico (full),{'window': None},2024-10-01,4.97,5.506585266585266,-0.5365852665852664,4,2024-07-01
+drift_full,drift,Drift historico (full),{'window': None},2024-11-01,5.46,5.580731583231583,-0.12073158323158317,4,2024-07-01
+drift_full,drift,Drift historico (full),{'window': None},2024-12-01,5.0,5.6548778998779,-0.6548778998779001,4,2024-07-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-07-01,5.17,5.265570502834265,-0.09557050283426527,4,2024-07-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-08-01,5.27,5.289181254959772,-0.019181254959772076,4,2024-07-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-09-01,5.2299999999999995,5.312792007085278,-0.08279200708527856,4,2024-07-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-10-01,4.97,5.3364027592107846,-0.3664027592107848,4,2024-07-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-11-01,5.46,5.360013511336291,0.09998648866370896,4,2024-07-01
+trend_full,linear_trend,Tendencia linear (full),{'window': None},2024-12-01,5.0,5.3836242634617975,-0.38362426346179745,4,2024-07-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-07-01,5.17,4.983152445380445,0.18684755461955493,4,2024-07-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-08-01,5.27,4.983152445380445,0.2868475546195546,4,2024-07-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-09-01,5.2299999999999995,4.983152445380445,0.24684755461955454,4,2024-07-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-10-01,4.97,4.983152445380445,-0.013152445380445243,4,2024-07-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-11-01,5.46,4.983152445380445,0.47684755461955497,4,2024-07-01
+ses_a2,ses_grid,Suavizacao exponencial alpha=0.2,{'alpha': 0.2},2024-12-01,5.0,4.983152445380445,0.016847554619555005,4,2024-07-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-07-01,5.17,5.008366750666346,0.1616332493336543,4,2024-07-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-08-01,5.27,5.008366750666346,0.26163324933365395,4,2024-07-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-09-01,5.2299999999999995,5.008366750666346,0.22163324933365391,4,2024-07-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-10-01,4.97,5.008366750666346,-0.03836675066634587,4,2024-07-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-11-01,5.46,5.008366750666346,0.45163324933365434,4,2024-07-01
+ses_a4,ses_grid,Suavizacao exponencial alpha=0.4,{'alpha': 0.4},2024-12-01,5.0,5.008366750666346,-0.008366750666345624,4,2024-07-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-07-01,5.17,5.081957880877791,0.08804211912220872,4,2024-07-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-08-01,5.27,5.081957880877791,0.18804211912220836,4,2024-07-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-09-01,5.2299999999999995,5.081957880877791,0.14804211912220833,4,2024-07-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-10-01,4.97,5.081957880877791,-0.11195788087779146,4,2024-07-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-11-01,5.46,5.081957880877791,0.37804211912220875,4,2024-07-01
+ses_a6,ses_grid,Suavizacao exponencial alpha=0.6,{'alpha': 0.6},2024-12-01,5.0,5.081957880877791,-0.08195788087779121,4,2024-07-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-07-01,5.17,5.155701307841317,0.014298692158682513,4,2024-07-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-08-01,5.27,5.155701307841317,0.11429869215868216,4,2024-07-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-09-01,5.2299999999999995,5.155701307841317,0.07429869215868212,4,2024-07-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-10-01,4.97,5.155701307841317,-0.18570130784131766,4,2024-07-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-11-01,5.46,5.155701307841317,0.30429869215868255,4,2024-07-01
+ses_a8,ses_grid,Suavizacao exponencial alpha=0.8,{'alpha': 0.8},2024-12-01,5.0,5.155701307841317,-0.15570130784131742,4,2024-07-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-07-01,5.17,4.957256434047059,0.21274356595294108,4,2024-07-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-08-01,5.27,4.956133622284374,0.31386637771562587,4,2024-07-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.955179232286092,0.2748207677139076,4,2024-07-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-10-01,4.97,4.954368000787552,0.015631999212447845,4,2024-07-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-11-01,5.46,4.953678454013794,0.5063215459862063,4,2024-07-01
+holt_a3_b1_p85,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.85","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.85}",2024-12-01,5.0,4.953092339256099,0.0469076607439014,4,2024-07-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-07-01,5.17,4.961238178085695,0.2087618219143046,4,2024-07-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-08-01,5.27,4.954187855512725,0.3158121444872748,4,2024-07-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.947490049068403,0.2825099509315967,4,2024-07-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-10-01,4.97,4.941127132946297,0.0288728670537024,4,2024-07-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-11-01,5.46,4.935082362630298,0.5249176373697022,4,2024-07-01
+holt_a3_b1_p95,holt_grid,"Holt alpha=0.3, beta=0.1, phi=0.95","{'alpha': 0.3, 'beta': 0.1, 'phi': 0.95}",2024-12-01,5.0,4.929339830830097,0.07066016916990314,4,2024-07-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-07-01,5.17,5.098077174531021,0.07192282546897921,4,2024-07-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-08-01,5.27,5.1140773749860795,0.15592262501392007,4,2024-07-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-09-01,5.2299999999999995,5.130077575441139,0.09992242455886036,4,2024-07-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-10-01,4.97,5.146077775896198,-0.17607777589619822,4,2024-07-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-11-01,5.46,5.162077976351257,0.2979220236487432,4,2024-07-01
+holt_a3_b1_p100,holt_grid,"Holt alpha=0.3, beta=0.1, phi=1.00","{'alpha': 0.3, 'beta': 0.1, 'phi': 1.0}",2024-12-01,5.0,5.1780781768063155,-0.17807817680631555,4,2024-07-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-07-01,5.17,4.933106594426684,0.23689340557331562,4,2024-07-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-08-01,5.27,4.942848811695651,0.32715118830434875,4,2024-07-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-09-01,5.2299999999999995,4.951129696374273,0.27887030362572673,4,2024-07-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-10-01,4.97,4.958168448351102,0.011831551648898042,4,2024-07-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-11-01,5.46,4.964151387531406,0.4958486124685937,4,2024-07-01
+holt_a3_b3_p85,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.85","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.85}",2024-12-01,5.0,4.969236885834665,0.03076311416533528,4,2024-07-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-07-01,5.17,4.913491926806819,0.2565080731931806,4,2024-07-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-08-01,5.27,4.918497461887693,0.3515025381123067,4,2024-07-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-09-01,5.2299999999999995,4.9232527202145215,0.306747279785478,4,2024-07-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-10-01,4.97,4.92777021562501,0.0422297843749897,4,2024-07-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-11-01,5.46,4.932061836264974,0.5279381637350262,4,2024-07-01
+holt_a3_b3_p95,holt_grid,"Holt alpha=0.3, beta=0.3, phi=0.95","{'alpha': 0.3, 'beta': 0.3, 'phi': 0.95}",2024-12-01,5.0,4.936138875872938,0.06386112412706169,4,2024-07-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-07-01,5.17,4.907305016286875,0.26269498371312494,4,2024-07-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-08-01,5.27,4.9112686906840874,0.35873130931591213,4,2024-07-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-09-01,5.2299999999999995,4.915232365081299,0.3147676349187005,4,2024-07-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-10-01,4.97,4.919196039478511,0.050803960521489167,4,2024-07-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-11-01,5.46,4.923159713875722,0.5368402861242778,4,2024-07-01
+holt_a3_b3_p100,holt_grid,"Holt alpha=0.3, beta=0.3, phi=1.00","{'alpha': 0.3, 'beta': 0.3, 'phi': 1.0}",2024-12-01,5.0,4.927123388272935,0.07287661172706539,4,2024-07-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-07-01,5.17,5.088505177743504,0.08149482225649596,4,2024-07-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-08-01,5.27,5.1003361292023515,0.1696638707976481,4,2024-07-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-09-01,5.2299999999999995,5.110392437942371,0.11960756205762824,4,2024-07-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-10-01,4.97,5.118940300371389,-0.1489403003713896,4,2024-07-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-11-01,5.46,5.126205983436053,0.3337940165639468,4,2024-07-01
+holt_a6_b1_p85,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.85","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.85}",2024-12-01,5.0,5.132381814041018,-0.13238181404101823,4,2024-07-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-07-01,5.17,5.100367658474607,0.06963234152539322,4,2024-07-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-08-01,5.27,5.119730300237118,0.15026969976288118,4,2024-07-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-09-01,5.2299999999999995,5.138124809911504,0.0918751900884951,4,2024-07-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-10-01,4.97,5.155599594102171,-0.18559959410217086,4,2024-07-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-11-01,5.46,5.172200639083305,0.28779936091669533,4,2024-07-01
+holt_a6_b1_p95,holt_grid,"Holt alpha=0.6, beta=0.1, phi=0.95","{'alpha': 0.6, 'beta': 0.1, 'phi': 0.95}",2024-12-01,5.0,5.187971631815381,-0.18797163181538057,4,2024-07-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-07-01,5.17,5.173262502678753,-0.0032625026787531652,4,2024-07-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-08-01,5.27,5.234244632278277,0.035755367721722386,4,2024-07-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-09-01,5.2299999999999995,5.295226761877801,-0.06522676187780174,4,2024-07-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-10-01,4.97,5.3562088914773245,-0.38620889147732473,4,2024-07-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-11-01,5.46,5.417191021076849,0.042808978923151386,4,2024-07-01
+holt_a6_b1_p100,holt_grid,"Holt alpha=0.6, beta=0.1, phi=1.00","{'alpha': 0.6, 'beta': 0.1, 'phi': 1.0}",2024-12-01,5.0,5.478173150676373,-0.47817315067637267,4,2024-07-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-07-01,5.17,5.1317986066644785,0.038201393335521416,4,2024-07-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-08-01,5.27,5.183853950536357,0.08614604946364235,4,2024-07-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-09-01,5.2299999999999995,5.228100992827454,0.0018990071725450974,4,2024-07-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-10-01,4.97,5.265710978774886,-0.2957109787748866,4,2024-07-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-11-01,5.46,5.297679466830204,0.16232053316979567,4,2024-07-01
+holt_a6_b3_p85,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.85","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.85}",2024-12-01,5.0,5.324852681677224,-0.3248526816772239,4,2024-07-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-07-01,5.17,5.123050729435904,0.046949270564096146,4,2024-07-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-08-01,5.27,5.181172534561653,0.08882746543834674,4,2024-07-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-09-01,5.2299999999999995,5.236388249431115,-0.006388249431115156,4,2024-07-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-10-01,4.97,5.288843178557103,-0.31884317855710353,4,2024-07-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-11-01,5.46,5.338675361226793,0.1213246387732072,4,2024-07-01
+holt_a6_b3_p95,holt_grid,"Holt alpha=0.6, beta=0.3, phi=0.95","{'alpha': 0.6, 'beta': 0.3, 'phi': 0.95}",2024-12-01,5.0,5.386015934762997,-0.3860159347629972,4,2024-07-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-07-01,5.17,5.115575170258267,0.05442482974173313,4,2024-07-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-08-01,5.27,5.174621496508106,0.0953785034918937,4,2024-07-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-09-01,5.2299999999999995,5.233667822757946,-0.003667822757946304,4,2024-07-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-10-01,4.97,5.292714149007785,-0.32271414900778517,4,2024-07-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-11-01,5.46,5.351760475257625,0.10823952474237508,4,2024-07-01
+holt_a6_b3_p100,holt_grid,"Holt alpha=0.6, beta=0.3, phi=1.00","{'alpha': 0.6, 'beta': 0.3, 'phi': 1.0}",2024-12-01,5.0,5.410806801507465,-0.41080680150746485,4,2024-07-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-07-01,5.17,5.284146316646317,-0.11414631664631703,4,2024-07-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-08-01,5.27,5.358292633292633,-0.08829263329263348,4,2024-07-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-09-01,5.2299999999999995,5.43243894993895,-0.2024389499389505,4,2024-07-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-10-01,4.97,5.506585266585266,-0.5365852665852664,4,2024-07-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-11-01,5.46,5.580731583231583,-0.12073158323158317,4,2024-07-01
+ar_diff_p0,arima_manual_grid,AR manual em diferencas p=0,"{'p': 0, 'd': 1}",2024-12-01,5.0,5.6548778998779,-0.6548778998779001,4,2024-07-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-07-01,5.17,5.1992816193705895,-0.029281619370589596,4,2024-07-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-08-01,5.27,5.269438765832312,0.0005612341676872745,4,2024-07-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-09-01,5.2299999999999995,5.3099615390097785,-0.07996153900977898,4,2024-07-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-10-01,4.97,5.361342925559384,-0.39134292555938455,4,2024-07-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-11-01,5.46,5.408745504012237,0.051254495987762994,4,2024-07-01
+ar_diff_p1,arima_manual_grid,AR manual em diferencas p=1,"{'p': 1, 'd': 1}",2024-12-01,5.0,5.457605995490284,-0.457605995490284,4,2024-07-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-07-01,5.17,5.039783881657367,0.13021611834263336,4,2024-07-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-08-01,5.27,5.150477960248999,0.11952203975100062,4,2024-07-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-09-01,5.2299999999999995,5.1912633372858705,0.03873666271412901,4,2024-07-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-10-01,4.97,5.19561221843409,-0.2256122184340903,4,2024-07-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-11-01,5.46,5.243483378163562,0.21651662183643783,4,2024-07-01
+ar_diff_p2,arima_manual_grid,AR manual em diferencas p=2,"{'p': 2, 'd': 1}",2024-12-01,5.0,5.274029431052468,-0.274029431052468,4,2024-07-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.1728725548799375,-0.002872554879937539,4,2024-07-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.160880107927139,0.10911989207286066,4,2024-07-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.157006456415417,0.0729935435845821,4,2024-07-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,5.15575523753629,-0.18575523753629053,4,2024-07-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,5.155351084328717,0.30464891567128305,4,2024-07-01
+dynreg_macro_ylag1,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-12-01,5.0,5.155220539770993,-0.15522053977099315,4,2024-07-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.074209254098061,0.09579074590193937,4,2024-07-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.121442846228617,0.14855715377138257,4,2024-07-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.089124971632609,0.14087502836739052,4,2024-07-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,5.099671134209186,-0.12967113420918608,4,2024-07-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,5.091949127210698,0.3680508727893024,4,2024-07-01
+dynreg_macro_ylag2,dynamic_regression_grid,Regressao dinamica com macro; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-12-01,5.0,5.094281687900602,-0.09428168790060187,4,2024-07-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.087112877974453,0.08288712202554649,4,2024-07-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.092560249557985,0.17743975044201488,4,2024-07-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.092318777085687,0.1376812229143125,4,2024-07-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,5.092329481138822,-0.1223294811388218,4,2024-07-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,5.092329006646834,0.36767099335316633,4,2024-07-01
+dynreg_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-12-01,5.0,5.092329027680235,-0.09232902768023532,4,2024-07-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.08939306905854,0.08060693094146032,4,2024-07-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.099814311058851,0.1701856889411486,4,2024-07-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.095584677388966,0.13441532261103362,4,2024-07-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,5.096049461642632,-0.12604946164263264,4,2024-07-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,5.0958981674061645,0.36410183259383544,4,2024-07-01
+dynreg_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com portfolio; exogenas constantes no futuro,"{'features': 'dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-12-01,5.0,5.095917782533823,-0.09591778253382266,4,2024-07-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.109494533764038,0.06050546623596187,4,2024-07-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.116838161444049,0.15316183855595078,4,2024-07-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.116301584981869,0.11369841501813038,4,2024-07-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,5.116340790986355,-0.146340790986355,4,2024-07-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,5.116337926323262,0.34366207367673773,4,2024-07-01
+dynreg_macro_portfolio_ylag1,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 1, 'future_exog': 'last_observed_constant'}",2024-12-01,5.0,5.116338135635451,-0.11633813563545115,4,2024-07-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-07-01,5.17,5.11629427708974,0.053705722910259546,4,2024-07-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-08-01,5.27,5.116516860785864,0.1534831392141358,4,2024-07-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-09-01,5.2299999999999995,5.117521969603172,0.11247803039682758,4,2024-07-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-10-01,4.97,5.117492877608977,-0.14749287760897722,4,2024-07-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-11-01,5.46,5.117482805717199,0.34251719428280136,4,2024-07-01
+dynreg_macro_portfolio_ylag2,dynamic_regression_grid,Regressao dinamica com macro_portfolio; exogenas constantes no futuro,"{'features': 'tx_desemprego_12m,rendimento_medio,dias_atraso_medio,pct_pago_devido', 'y_lags': 2, 'future_exog': 'last_observed_constant'}",2024-12-01,5.0,5.1174833870567005,-0.11748338705670047,4,2024-07-01

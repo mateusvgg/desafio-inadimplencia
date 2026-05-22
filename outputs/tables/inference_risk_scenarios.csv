@@ -1,0 +1,4 @@
+scenario,score_credito_contratacao,ltv,tx_juros_anual,prazo_meses,vr_financiado,faixa_renda,tipo_imovel,programa_social,uf,id_contrato,dt_contratacao,vr_entrada,regiao,score_100,ltv_10pp,prazo_5anos,log_vr_financiado,probabilidade_inadimplencia,probabilidade_pct
+Baixo risco,800.0,70.0,7.0,240.0,180000.0,Acima de 10 SM,Novo,Livre,SP,1,2024-01-01,77142.85714285714,Sudeste,8.0,7.0,4.0,12.100712129872347,0.327611886727678,32.7611886727678
+Perfil medio,641.0,84.695,7.83,300.0,178287.02500000002,3 a 6 SM,Usado,FGTS,SP,2,2024-01-01,32217.75686433676,Sudeste,6.41,8.4695,5.0,12.091150030591994,0.5446653010018533,54.46653010018533
+Alto risco,520.0,89.0,10.0,360.0,260000.0,Até 3 SM,Usado,MCMV,SP,3,2024-01-01,32134.83146067416,Sudeste,5.2,8.9,6.0,12.468436909997665,0.6776623033416507,67.76623033416507
